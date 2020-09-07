@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import Post from '../Post/Post';
 import fakeData from '../../fakeData';
 import './Home.css';
@@ -7,7 +7,7 @@ import './Home.css';
 const Home = () => {
    console.log(fakeData);
     const first15 =  fakeData.slice(0,15);
-    const [posts,setPosts] = useState(first15);
+    const [posts] = useState(first15);
 
     return (
 

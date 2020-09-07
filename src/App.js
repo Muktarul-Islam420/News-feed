@@ -10,7 +10,7 @@ import NoMatch from './components/NoMatch/NoMatch';
 import Post from './components/Post/Post';
 import PostDetail from './components/PostDetail/PostDetail';
 import Comment from './components/Comment/Comment';
-import CommentDetail from './components/CommentDetail/CommentDetail';
+// import CommentDetail from './components/CommentDetail/CommentDetail';
 import Appbar from './components/Appbar/Appbar';
 
 
@@ -34,9 +34,9 @@ function App() {
             <Route exact path="/comment/:Id">
               <Comment/>
             </Route>
-            <Route exact path="/comment/:Id">
+            {/* <Route exact path="/comment/:Id">
               <CommentDetail/>
-            </Route>
+            </Route> */}
             <Route exact path="/">
             <Home/>
             </Route>

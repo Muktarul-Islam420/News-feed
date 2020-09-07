@@ -3,7 +3,7 @@ import { useParams, useHistory } from 'react-router-dom';
 // import { makeStyles } from '@material-ui/core/styles';
 import './PostDetail.css'
 import Button from '@material-ui/core/Button';
-import Comment from '../Comment/Comment';
+
 import './PostDetail.css';
 
 const PostDetail = () => {

@@ -1,8 +1,7 @@
 import React from 'react';
 import './Post.css';
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { Link, useHistory } from 'react-router-dom';
+import {useHistory } from 'react-router-dom';
 
 const Post = (props) => {
     const post = props.posts;

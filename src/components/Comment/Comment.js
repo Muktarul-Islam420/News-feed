@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import './Comment.css'
-import CommentDetail from '../CommentDetail/CommentDetail';
+import './Comment.css';
 import { useParams } from 'react-router-dom';
 
 const Comment = () => {
     const {Id} = useParams();
     // console.log(props);
     const [comment,setComment] = useState([]);
-    const[image,setImage] = useState([]);
+    // const[image,setImage] = useState([]);
     // $('.user-imag').append('.comment');
 useEffect(() => {
      const URL = `https://jsonplaceholder.typicode.com/comments?postId=${Id}` ;
@@ -15,12 +14,12 @@ useEffect(() => {
     .then(res => res.json())
     .then(data => setComment(data));
  }, [])
- useEffect(() => {
-    const url = `https://jsonplaceholder.typicode.com/photos?albumId=${Id}`;
-    fetch(url)
-    .then(res => res.json())
-    .then(data => setImage(data));
- },[])
+//  useEffect(() => {
+//     const url = `https://jsonplaceholder.typicode.com/photos?albumId=${Id}`;
+//     fetch(url)
+//     .then(res => res.json())
+//     .then(data => setImage(data));
+//  },[])
     // console.log(comment)
     return (
       
