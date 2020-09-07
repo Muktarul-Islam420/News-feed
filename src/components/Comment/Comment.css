@@ -1,0 +1,27 @@
+.user-image{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    border: 1px solid gray;
+}
+.comment-body-container{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    background-color:rgb(255, 179, 112);
+    margin-top: 20px;
+    margin-left: 25%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10 salmon;
+}
+.comment-container{
+    background-color:whitesmoke;
+    border-radius:5px;
+}
+.comment-text{
+    font-family: monospace;
+    font-size:16px;
+    font-style: italic;
+    text-shadow: 3px 3px 3px gray transparent;
+}

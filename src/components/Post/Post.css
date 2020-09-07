@@ -1,0 +1,28 @@
+.post-container{
+    height: 250px;
+    width: 45%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 28%;
+    border: 2px solid lightgrey;
+    background-color:peachpuff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10 salmon;
+}
+.title-text{
+    font-family: 'Bebas Neue', cursive;
+    font-size:18px;
+    color:rgb(255, 0, 98);
+    text-shadow: 1px 1px 1px rgb(121, 239, 255);
+    font-weight:400px;
+   
+}
+.title-text:hover{
+    color:  rgb(10, 220, 248);
+    text-shadow: 1px 1px 1px rgb(255, 0, 98);
+}
+.sub-title{
+    font-family: 'Patua One', cursive;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 3px 3px 3px grey;
+}
